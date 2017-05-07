@@ -1,0 +1,70 @@
+#name {
+    /*    font-family: 'Dosis', sans-serif;*/
+    font-family: 'Economica', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 110px;
+    color: white;
+    position: absolute;
+    left: 420px;
+}
+
+.social-icons {
+    width: 20%;
+    font-size: 50px;
+    position: absolute;
+    left: 45%;
+    top: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa {
+    color: antiquewhite;
+}
+
+.fb:hover {
+    color: #3B5998;
+}
+
+.twitter:hover {
+    color: #15A7FF;
+}
+
+.linkedin:hover {
+    color: #0077B5;
+}
+
+.github:hover {
+    color: black;
+}
+
+#profile-pic {
+    display: block;
+    height: 50%;
+    width: 50%;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+    border-radius: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(51, 51, 51, 1);
+}
+
+body,
+html {
+    background: linear-gradient(to right, #16a085, #f4d03f);
+}
+
+#attr {
+    position: absolute;
+    left: 33%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qual {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 25px;
+}
