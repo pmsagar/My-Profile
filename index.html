@@ -10,7 +10,6 @@
     <!--Avoiding Zoom-->
     <title>Mani Sagar Pratha</title>
     <link rel="icon" href="/assets/fav-icon.ico" sizes="any" type="image/x-icon">
-    <script src="scripts/main.js"></script>
     <link rel="stylesheet" href="styles/main.css">
     <!--   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
@@ -18,17 +17,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
 
 <body>
-    <div>
-        <div id="profile-pic"> <img src="assets/dp.jpg"> </div>
-        <div class="card" id="name">
-            <p>Mani Sagar Pratha</p>
-        </div>
-        <div class="social-icons"> <a href="https://www.facebook.com/prathamani.sagar" target="_blank"><i class="fb fa fa-facebook" aria-hidden="true"></i></a> <a href="https://twitter.com/sagariscool" target="_blank"><i class="twitter fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/in/mani-sagar-pratha-a6202b105" target="_blank"><i class="linkedin fa fa-linkedin" aria-hidden="true"></i></a><a href="https://github.com/pmsagar" target="_blank"><i class="github fa fa-github-alt" aria-hidden="true"></i></a> </div>
-        <div id="attr">
-            <div class="qual" id="btech">Electronics Engineer</div>
-            <div class="qual" id="net">Software Engineer</div>
-        </div>
-    </div>
+    <content>
+        <section id="name-card">
+            <div>
+                <p id="name" class="card">Mani Sagar Pratha</p> <img id="profile-pic" src="assets/dp.jpg"> </div>
+        </section>
+        <section>
+            <div id="attr">
+                <div class="qual" id="net">Software Engineer</div>
+            </div>
+        </section>
+        <section id="section-main">
+            <div class="social-icons">
+                <div> <a href="https://www.facebook.com/prathamani.sagar" target="_blank"><i class="fb fa fa-facebook" aria-hidden="true"></i></a></div>
+                <div> <a href="https://twitter.com/sagariscool" target="_blank"><i class="twitter fa fa-twitter" aria-hidden="true"></i></a></div>
+                <div> <a href="https://www.linkedin.com/in/mani-sagar-pratha-a6202b105" target="_blank"><i class="linkedin fa fa-linkedin" aria-hidden="true"></i></a></div>
+                <div><a href="https://github.com/pmsagar" target="_blank"><i class="github fa fa-github-alt" aria-hidden="true"></i></a> </div>
+            </div>
+        </section>
+    </content>
+    <footer>&copy;<span id="year"></span>&nbsp;Mani Sagar Pratha</footer>
 </body>
+<script src="scripts/main.js"></script>
 
 </html>
