@@ -22,8 +22,8 @@
             "sizes": "144x144"
         }
     ],
-    "theme_color": "#00897B",
-    "background_color": "#669999",
+    "theme_color": "#212121",
+    "background_color": "#212121",
     "display": "standalone",
     "Scope": "/My-Profile",
     "start_url": "/My-Profile",
