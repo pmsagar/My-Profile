@@ -24,6 +24,29 @@ body {
     z-index: 2;
 }
 
+.ppicroll {
+    animation: roll linear 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes roll {
+    0% {
+        transform: translate(-400px, 0px) rotate(72deg);
+    }
+    25% {
+        transform: translate(-300px, 0px) rotate(144deg);
+    }
+    50% {
+        transform: translate(-200px, 0px) rotate(216eg);
+    }
+    75% {
+        transform: translate(-100px, 0px) rotate(288deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 1.25%;
@@ -288,12 +311,12 @@ footer {
         left: 0px;
         width: 160px;
         display: flex;
-        top:200px;
+        top: 200px;
         justify-content: space-between;
         margin: 5px auto 0 auto;
         z-index: 3;
     }
-       #chain2-r {
+    #chain2-r {
         position: relative;
         left: 0;
         margin: 0;
